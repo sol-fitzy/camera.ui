@@ -1,8 +1,4 @@
-<p align="center">
-    <img src="https://github.com/SeydX/camera.ui/blob/master/images/logo.png">
-</p>
-
-# camera.ui
+# camera.ui (remaster)
 
 [![npm](https://img.shields.io/npm/v/camera.ui.svg?style=flat-square)](https://www.npmjs.com/package/camera.ui)
 [![npm](https://img.shields.io/npm/v/camera.ui/beta.svg?style=flat-square)](https://www.npmjs.com/package/camera.ui)
