@@ -15,7 +15,7 @@ import Interface from './main.js';
 export default class CameraUI {
   constructor(configJson = {}, storagePath, logger, environment = {}) {
     if (!storagePath) {
-      throw new Error('No storage path was given for camera.ui');
+      throw new Error('No storage path was given for panel, please allocate space.');
     }
 
     const logLevel = configJson.logLevel || 'info';
