@@ -38,7 +38,7 @@ commander
   .option('--no-global', 'Disable global (-g) prefix for updating through ui', () => (globalInstalled = '0'))
   .option(
     '-S, --storage-path [path]',
-    'Look for camera.ui files at [path] instead of the default location (~/.camera.ui)',
+    'Look for panel files at [path] instead of the default location (~/.camera.ui)',
     (p) => (storagePath = p)
   )
   .parse(process.argv);
@@ -84,7 +84,7 @@ if (cluster.isPrimary) {
   cluster.on('exit', (worker, code) => {
     if (code !== 0 && !worker.exitedAfterDisconnect) {
       const worker = cluster.fork();
-      log.info(`Restarting camera.ui with PID: ${worker.process.pid}`);
+      log.info(`Restarting panel with PID: ${worker.process.pid}`);
     }
   });
 
@@ -96,7 +96,7 @@ if (cluster.isPrimary) {
 
     shuttingDown = true;
 
-    log.warn(`Got ${signal}, shutting down camera.ui...`, 'System', 'system');
+    log.warn(`Got ${signal}, shutting down panel...`, 'System', 'system');
 
     setTimeout(() => {
       // eslint-disable-next-line unicorn/no-process-exit
