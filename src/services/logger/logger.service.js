@@ -31,7 +31,7 @@ const hook_writestream = (stream, callback) => {
 };
 
 export default class LoggerService {
-  static #prefix = 'camera.ui';
+  static #prefix = 'panel';
   static #logger = console;
   static #customLogger = false;
   static #withPrefix = true;
@@ -47,7 +47,7 @@ export default class LoggerService {
     /**
      * logger = {
      *   createUiLogger: (cameraUiLogger) => {},
-     *   log: {
+     *   log: {and
      *     prefix: 'MyLogger',
      *     info: console.info,
      *     warn: console.warn,
