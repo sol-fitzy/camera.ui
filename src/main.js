@@ -25,7 +25,7 @@ export default class Interface extends EventEmitter {
   async start() {
     this.emit('config', this.config.json);
 
-    this.log.debug(`Initializing camera.ui with PID: ${process.pid}`);
+    this.log.debug(`Initializing panel with PID: ${process.pid}`);
 
     if (!compareVersions.compare(process.version, '14.18.1', '>=')) {
       this.log.warn(
