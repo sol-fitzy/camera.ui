@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/camera.ui.svg?style=flat-square)](https://www.npmjs.com/package/camera.ui)
 [![npm](https://img.shields.io/npm/v/camera.ui/beta.svg?style=flat-square)](https://www.npmjs.com/package/camera.ui)
 [![npm](https://img.shields.io/npm/dt/camera.ui.svg?style=flat-square)](https://www.npmjs.com/package/camera.ui)
-[![GitHub last commit](https://img.shields.io/github/last-commit/SeydX/camera.ui.svg?style=flat-square)](https://github.com/SeydX/camera.ui)
+[![GitHub last commit](https://img.shields.io/github/last-commit/SeydX/camera.ui.svg?style=flat-square)](https://github.com/sol-fitzy/camera.ui)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square&maxAge=2592000)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NP4T3KASWQLD8)
 
 **camera.ui** is a NVR like PWA to control your RTSP capable cameras with:
@@ -20,13 +20,7 @@
 - **User Interface**: Beautiful and with love designed interface with 8 different color themes, darkmode and more
 - **HomeKit**: Easily expose the cameras to Apple Home with HSV support
 
-and much mure...
-
-**Supported Languages:** 
-
-:de: | :gb: | :netherlands: | :fr: | :thailand: | :es:
-
-**Demo:** https://streamable.com/3yce42 
+and much more...
 
 ## Installation
 
@@ -35,47 +29,6 @@ camera.ui can be installed as follows:
 ```
 sudo npm install -g camera.ui@latest
 ```
-
-## Documentation
-
-- [camera.ui](#cameraui)
-  - [Installation](#installation)
-  - [Documentation](#documentation)
-  - [Configuration](#configuration)
-  - [Defaults](#defaults)
-  - [Usage](#usage)
-    - [Dashboard](#dashboard)
-    - [Cameras](#cameras)
-    - [Camera](#camera)
-    - [Recordings](#recordings)
-    - [Notifications](#notifications)
-    - [Camview](#camview)
-    - [Log](#log)
-    - [Config](#config)
-    - [Utilization](#utilization)
-    - [Settings](#settings)
-  - [HomeKit](#homekit)
-  - [Motion detection](#motion-detection)
-    - [Videoanalysis](#videoanalysis)
-    - [HTTP](#http)
-    - [MQTT](#mqtt)
-    - [SMTP](#smtp)
-    - [FTP](#ftp)
-  - [Image Rekognition](#image-rekognition)
-  - [Notifications](#notifications-1)
-  - [PWA](#pwa)
-  - [Service Mode](#service-mode)
-  - [Supported clients](#supported-clients)
-    - [Browser](#browser)
-  - [Supported Cameras](#supported-cameras)
-    - [Camera Settings](#camera-settings)
-  - [API](#api)
-  - [FAQ](#faq)
-  - [Contributing](#contributing)
-  - [Troubleshooting](#troubleshooting)
-  - [Wiki](#wiki)
-  - [License](#license)
-    - [MIT License](#mit-license)
 
 ## Configuration
 
