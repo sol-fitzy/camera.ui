@@ -174,7 +174,7 @@ export default {
         };
 
         navigator.share(data).catch((err) => {
-          if (err?.message !== 'Abort due to cancellation of share.') {
+          if (err?.message !== 'Share has been canceled.') {
             console.log(err);
             this.$toast.error(err.message);
           }
