@@ -4,7 +4,6 @@
 [![npm](https://img.shields.io/npm/v/camera.ui/beta.svg?style=flat-square)](https://www.npmjs.com/package/camera.ui)
 [![npm](https://img.shields.io/npm/dt/camera.ui.svg?style=flat-square)](https://www.npmjs.com/package/camera.ui)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SeydX/camera.ui.svg?style=flat-square)](https://github.com/sol-fitzy/camera.ui)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square&maxAge=2592000)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NP4T3KASWQLD8)
 [![Dependency Check](https://github.com/sol-fitzy/camera.ui/actions/workflows/dependency-review.yml/badge.svg?branch=master&event=workflow_dispatch)](https://github.com/sol-fitzy/camera.ui/actions/workflows/dependency-review.yml)
 
 **camera.ui** is a NVR like PWA to control your RTSP capable cameras with:
