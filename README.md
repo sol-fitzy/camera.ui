@@ -22,14 +22,6 @@
 
 and much more...
 
-## Installation
-
-camera.ui can be installed as follows:
-
-```
-sudo npm install -g camera.ui@latest
-```
-
 ## Configuration
 
 camera.ui installs itself in the user directory under `~/.camera.ui`.
@@ -222,6 +214,7 @@ These would be e.g.
 - Telegram
 - Webhook
 - Alexa
+- Discord(soon)
 - Third party providers that support Alexa
 
 Via Telegram, you even have the option to send picture or video along with text messages.
